@@ -21,7 +21,7 @@ pipeline {
 
                 sh 'ls'
 
-                python run.py
+                sh 'python run.py'
                 
 
                 // To run Maven on a Windows agent, use

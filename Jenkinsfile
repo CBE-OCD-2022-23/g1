@@ -6,7 +6,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'su pip install flask'
+                sh 'pip install flask'
                 sh 'python run.py'
             }
         }

@@ -18,6 +18,10 @@ pipeline {
                 sh 'pwd'
 
                 sh 'python --version'
+
+                sh 'ls'
+
+                python run.py
                 
 
                 // To run Maven on a Windows agent, use

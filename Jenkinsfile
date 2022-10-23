@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                //sh 'python --version'
                 sh 'node --version'
                 sh 'node app.js'
             }

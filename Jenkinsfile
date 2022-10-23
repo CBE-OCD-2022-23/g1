@@ -6,8 +6,8 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'pip install flask'
-                sh 'python run.py'
+                sh 'node --version'
+                sh 'node app.js'
             }
         }
     }

@@ -18,7 +18,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-            sh 'npm config ls'
+           // sh 'npm config ls'
             sh 'node --version'
             sh 'node app.js'
       }

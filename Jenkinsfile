@@ -1,14 +1,14 @@
 
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { docker { image 'python:3.10.7-alpine' } }
+    agent any//{ docker { image 'python:3.10.7-alpine' } }
 
    stages {
-        stage('build') {
-            steps {
-                sh 'pip install flask'
-            }
-        }
+//         stage('build') {
+//             steps {
+//                 sh 'pip install flask'
+//             }
+//         }
 
         stage('test') {
             steps {
